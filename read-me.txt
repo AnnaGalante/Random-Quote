@@ -1,7 +1,0 @@
-READ ME
-
-one 
-two
-three
-
-The end
