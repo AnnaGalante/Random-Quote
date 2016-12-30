@@ -1,9 +1,9 @@
 function randomQuote() {
     //--- this portion stores the quotes ---//
     var quoteArray = [
-        {quote: "quote 0", author: "person 0"},
-        {quote: "quote 1", author: "person 1"},
-        {quote: "quote 2", author: "person 2"},
+        {quote: "“There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.”", author: "Patrick Rothfuss"},
+        {quote: "“There’s no freedom quite like the freedom of being constantly underestimated.” ", author: "Scott Lynch"},
+        {quote: "“Bones mend. Regret stays with you forever.” ", author: "Patrick Rothfuss"},
         {quote: "quote 3", author: "person 3"},
         {quote: "quote 4", author: "person 4"}
     ];
