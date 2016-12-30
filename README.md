@@ -1,6 +1,13 @@
 # Random-Quote
 Random Quote Machine for FCC
 
+Start Date = 12/29/2016
+Finish Date = n/a
+
+Developed by Annastasia Galante
+CSS Framework - Boostrap
+Font Icons - 
+
 1. Objective: Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/ONjoLe/.
 2. Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 3. User Story: I can click a button to show me a new random quote.
