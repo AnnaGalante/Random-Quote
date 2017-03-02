@@ -1,8 +1,8 @@
 function randomQuote() {
     //--- this portion stores the quotes ---//
     var quoteArray = [
-        {quote: "“There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.”", author: "Patrick Rothfuss"},
-        {quote: "“There’s no freedom quite like the freedom of being constantly underestimated.” ", author: "Scott Lynch"},
+        {quote: "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.", author: "Patrick Rothfuss"},
+        {quote: "There’s no freedom quite like the freedom of being constantly underestimated. ", author: "Scott Lynch"},
         {quote: "“Bones mend. Regret stays with you forever.” ", author: "Patrick Rothfuss"},
         {quote: "Adventure may hurt you but monotony will kill you", author: "Unkown"},
         {quote: "The mountains are calling and I must go.", author: "John Muir"},

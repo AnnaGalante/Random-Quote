@@ -8,14 +8,17 @@
 	<title>Random Quotes</title>
     <!-- getting bootstrap -->
     <link rel="stylesheet" href = "bootstrap-4.0.0-alpha.5-dist/css/bootstrap.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- my style sheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- my javascript -->
     <script src="javascript.js" language="javascript" type="text/javascript"></script>
 </head>
 <body id="bootstrap-overrides">
-    <div class="quote-container">  
-        <h1 id="quote">Here is a quote</h1>
+    <div class="quote-container">
+        
+        <h1 id="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> Here is a quote</h1><i class="fa fa-quote-right" aria-hidden="true"></i>
         <h3 id="author">-Jon Snow</h3>
         <a class="btn btn-outline-primary" href="#" role="button" id="getQuote" onclick="randomQuote()">New Quote</a>
     </div> 
@@ -36,11 +39,14 @@
     <div class="container">
         <p>Lorem ipsum</p>
         <dl class="row">
-            <dt class="col-sm-3"> Developed by</dt>
+            <dt class="col-sm-3"> Developed and Designed by</dt>
             <dd class="col-sm-9"> Annastasia Galante</dd>
     
-            <dt class="col-sm-3"> Other Information</dt>
-            <dd class="col-sm-9"> Lorem Ipsum</dd>
+            <dt class="col-sm-3"> CSS Framework</dt>
+            <dd class="col-sm-9"> Bootstrap</dd>
+            
+            <dt class="col-sm-3"> Icon Library</dt>
+            <dd class="col-sm-9"> Font Awesome</dd>
         </dl>
     </div>
 </footer>
