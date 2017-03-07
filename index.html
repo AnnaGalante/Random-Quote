@@ -15,12 +15,32 @@
     <!-- my javascript -->
     <script src="javascript.js" language="javascript" type="text/javascript"></script>
 </head>
-<body id="bootstrap-overrides">
+<body id="bootstrap-overrides" onload="randomQuote()" >
     <div class="quote-container">
         
-        <h1 id="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> Here is a quote</h1><i class="fa fa-quote-right" aria-hidden="true"></i>
-        <h3 id="author">-Jon Snow</h3>
-        <a class="btn btn-outline-primary" href="#" role="button" id="getQuote" onclick="randomQuote()">New Quote</a>
+        <h1 id="quote">Here is a quote</h1>
+        
+        <h3 id="author">Jon Snow</h3>
+        
+        <a class="btn btn-outline-primary" 
+           href="#" 
+           role="button" 
+           id="getQuote" 
+           
+           onclick="randomQuote()">
+            New Quote</a>
+        
+        <!-- <a class="btn btn-outline-primary" role="button" id="tweetQuote" onclick="" href="https://twitter.com/intent/tweet?text=">Tweet</a> -->
+        
+        <a class="btn btn-outline-primary" 
+           href="https://twitter.com/intent/tweet?text=Lorem%20Ipsum"
+           role="button" 
+           id="tweetQuote" 
+           onclick="" 
+           data-hashtags="example,demo"
+           data-via="Anna_Bandit">
+            Tweet
+        </a>
     </div> 
     
     
