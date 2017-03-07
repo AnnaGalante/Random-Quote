@@ -3,7 +3,7 @@ function randomQuote() {
     var quoteArray = [
         {quote: "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.", author: "Patrick Rothfuss"},
         {quote: "There’s no freedom quite like the freedom of being constantly underestimated. ", author: "Scott Lynch"},
-        {quote: "“Bones mend. Regret stays with you forever.” ", author: "Patrick Rothfuss"},
+        {quote: "Bones mend. Regret stays with you forever. ", author: "Patrick Rothfuss"},
         {quote: "Adventure may hurt you but monotony will kill you", author: "Unkown"},
         {quote: "The mountains are calling and I must go.", author: "John Muir"},
         {quote: "There is nothing worse than a sharp image of a fuzzy concept.", author: "Ansel Adams"},
@@ -29,4 +29,12 @@ function randomQuote() {
     //--- this portion pops the quote into the HTML ---//
     document.getElementById("quote").textContent = sameQuote; 
     document.getElementById("author").textContent = sameAuthor;
+    
+    //--- Uses same generated quote for twitter --//
+    
+    var twitterLink = "https://twitter.com/intent/tweet?text=" + sameQuote; // still fussing with this // 
+    
 }
+
+
+
