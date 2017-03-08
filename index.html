@@ -16,35 +16,43 @@
     <script src="javascript.js" language="javascript" type="text/javascript"></script>
 </head>
 <body id="bootstrap-overrides" onload="randomQuote()" >
-    <div id="twitter-wrapper">
-
+<div class="wrapper">
+    <!--<img src="images/bgMountains.jpg" class="img-responsive" id="bg-image">-->
+        <div class="main-content">
+        
+        <div class="container" id="twitter-wrapper">
             <a href="https://twitter.com/share" 
            id="twitter-button"
            class="twitter-share-button"
-           data-text="Lorem Ipsum" 
+           data-text="Check out Anna's random quote generator!" 
            data-url="https://annagalante.github.io/Random-Quote/" 
            data-via="Anna_Bandit" 
            data-hashtags="FCC" 
            data-related="anna_bandit,freeCodeCamp" 
            data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    </div>
-    <div class="quote-container">
+        </div>
+        <div class="quote-container">
         
-        <h1 id="quote">Here is a quote</h1>
+            <h1 id="quote">Here is a quote</h1>
         
-        <h3 id="author">Jon Snow</h3>
+            <h3 id="author">Jon Snow</h3>
         
-        <a class="btn btn-outline-primary" 
+            <a class="btn btn-outline-primary" 
            href="#" 
            role="button" 
            id="getQuote" 
            onclick="randomQuote()">
             New Quote</a>
 
-    </div> 
-    
-    
+        </div>
+    </div>
+    <div id="footer">
+        <p class="footer-text">Design & Development: Annastasia Galante <br />
+            CSS Framework: Boostrap<br />
+            Icon Library: Font Awesome<br />
+            Image Credit: Mike Dennler</p>
+    </div>
+</div>
     
 <!-- Bootstrap core JavaScript ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -56,8 +64,9 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	
 </body>
-<footer class="footer navbar-fixed-bottom">
-    <div class="container" class="pull-right">
+    <!--
+<footer class="footer navbar-bottom">
+    <div class="container">
         <p class="footer-text">Design & Development: Annastasia Galante <br />
             CSS Framework: Boostrap<br />
             Icon Library: Font Awesome<br />
@@ -65,4 +74,5 @@
         
     </div>
 </footer>
+-->
 </html>
