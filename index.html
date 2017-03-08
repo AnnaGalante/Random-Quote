@@ -16,6 +16,19 @@
     <script src="javascript.js" language="javascript" type="text/javascript"></script>
 </head>
 <body id="bootstrap-overrides" onload="randomQuote()" >
+    <div id="twitter-wrapper">
+
+            <a href="https://twitter.com/share" 
+           id="twitter-button"
+           class="twitter-share-button"
+           data-text="Lorem Ipsum" 
+           data-url="https://annagalante.github.io/Random-Quote/" 
+           data-via="Anna_Bandit" 
+           data-hashtags="FCC" 
+           data-related="anna_bandit,freeCodeCamp" 
+           data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
     <div class="quote-container">
         
         <h1 id="quote">Here is a quote</h1>
@@ -29,14 +42,6 @@
            onclick="randomQuote()">
             New Quote</a>
 
-        <a href="https://twitter.com/share" 
-           class="twitter-share-button" 
-           data-text="Lorem Ipsum" 
-           data-url="https://annagalante.github.io/Random-Quote/" 
-           data-via="Anna_Bandit" 
-           data-hashtags="FCC" 
-           data-related="anna_bandit,freeCodeCamp" 
-           data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div> 
     
     
@@ -52,18 +57,12 @@
 	
 </body>
 <footer class="footer navbar-fixed-bottom">
-    <div class="container">
-        <p>Lorem ipsum</p>
-        <dl class="row">
-            <dt class="col-sm-3"> Developed and Designed by</dt>
-            <dd class="col-sm-9"> Annastasia Galante</dd>
-    
-            <dt class="col-sm-3"> CSS Framework</dt>
-            <dd class="col-sm-9"> Bootstrap</dd>
-            
-            <dt class="col-sm-3"> Icon Library</dt>
-            <dd class="col-sm-9"> Font Awesome</dd>
-        </dl>
+    <div class="container" class="pull-right">
+        <p class="footer-text">Design & Development: Annastasia Galante <br />
+            CSS Framework: Boostrap<br />
+            Icon Library: Font Awesome<br />
+            Image Credit: Mike Dennler</p>
+        
     </div>
 </footer>
 </html>

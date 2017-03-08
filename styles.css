@@ -1,37 +1,72 @@
 body{
-    background-color: #ABC9C6;
-    color: #f9f9f9;
+    background-image: url(images/bgMountains.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #787c85;
+    font-family: "Baskerville";
+    font-size: 95%
 }
 
 .quote-container{
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 
-/* button styles */
+.twitter-wrapper{
+    display: block;
+    float: right;
+    margin: 10px;
+}
+/* Headers ******/
+
+h1 {
+    font-size: 1.45em;
+    font-weight: lighter;
+    line-height: 1.75em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+/* button styles ******/
+/* commented out btn-outline-primary bg color in boostrap */
 
 #bootstrap-overrides .btn {
-    color: #f9f9f9;
-    border-color: #f9f9f9;
+    color: #787c85;
+    border-color: #787c85;
 }
 
 #bootstrap-overrides .btn:hover{
-    background-color: #f9f9f9;
-    color: #ABC9C6;
+    background-color: #787c85;
+    color: #d7dbde;
+} 
+
+#bootstrap-overrides .btn:visited{
+    color: #787c85;
+    border-color: #787c85;
+    background-color: transparent;
+}
+
+#bootstrap-overrides .btn:hover:visited{
+    background-color: #787c85;
+    color: #d7dbde;
 } 
 
 #getQuote{
     margin-top: 10px;
 }
 
-/* footer styles */
+/* footer styles *****/
 footer{
     margin-top: 100px;
-    color: #4D5057;
-    background-color: #EAE2DD;
+    color: #fff;
+    background-color: #000;
     display: block;
-    
+    font-family: "Baskerville";
+    font-size: 95%
 }
-footer ul{
-    list-style: none;
+#footer-text{
+    text-align: right;
 }
