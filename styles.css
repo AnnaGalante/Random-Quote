@@ -1,37 +1,104 @@
 body{
-    background-color: #ABC9C6;
-    color: #f9f9f9;
+    font-size: 95%;
+    background-color: #000;
 }
+.wrapper{
+    
+}
+.main-content{
+   background-image: url(images/bgMountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: auto;
+    min-height: 450px;
+    color: #787c85;
+    font-family: "Baskerville";
+    padding-bottom: 50px;
+    
+} 
 
 .quote-container{
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
+}
+/*#bg-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: relative;
+}*/
+
+#twitter-wrapper{
+    text-align: right;
+    padding: 5px; 
+}
+/* Headers ******/
+
+h1 {
+    font-size: 1.45em;
+    font-weight: lighter;
+    line-height: 1.35em;
 }
 
-/* button styles */
+h3{
+    font-size: 1em;
+}
+
+/* button styles ******/
+/* commented out btn-outline-primary bg color in boostrap */
 
 #bootstrap-overrides .btn {
-    color: #f9f9f9;
-    border-color: #f9f9f9;
+    color: #787c85;
+    border-color: #787c85;
 }
 
 #bootstrap-overrides .btn:hover{
-    background-color: #f9f9f9;
-    color: #ABC9C6;
+    background-color: #787c85;
+    color: #d7dbde;
+} 
+
+#bootstrap-overrides .btn:visited{
+    color: #787c85;
+    border-color: #787c85;
+    background-color: transparent;
+}
+
+#bootstrap-overrides .btn:hover:visited{
+    background-color: #787c85;
+    color: #d7dbde;
 } 
 
 #getQuote{
     margin-top: 10px;
 }
 
-/* footer styles */
+/* footer styles *****/
+#footer{
+    color: #fff;
+    background-color: #000;
+    font-family: "Baskerville";
+    font-size: 95%;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+.footer-text{
+    text-align: right;
+    line-height: 2em;
+/*
 footer{
-    margin-top: 100px;
-    color: #4D5057;
-    background-color: #EAE2DD;
+    color: #fff;
+    background-color: #000;
     display: block;
-    
+    font-family: "Baskerville";
+    font-size: 95%;
+    padding-right: 2em;
+    padding-top: 1em;
 }
-footer ul{
-    list-style: none;
+.footer-text{
+    text-align: right;
+    line-height: 2em;
 }
+*/

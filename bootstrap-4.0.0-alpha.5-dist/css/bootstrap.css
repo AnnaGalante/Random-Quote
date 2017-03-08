@@ -2603,23 +2603,23 @@ fieldset[disabled] a.btn {
   background-color: transparent;
   border-color: #0275d8;
 }
-
+/* commented out items so button doesn't look funky */
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0275d8;
+  /* background-color: #0275d8; */
   border-color: #0275d8;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   color: #fff;
-  background-color: #0275d8;
+  /*background-color: #0275d8;*/
   border-color: #0275d8;
 }
 
 .btn-outline-primary:active, .btn-outline-primary.active,
 .open > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0275d8;
+  /*background-color: #0275d8;*/
   border-color: #0275d8;
 }
 

@@ -16,34 +16,43 @@
     <script src="javascript.js" language="javascript" type="text/javascript"></script>
 </head>
 <body id="bootstrap-overrides" onload="randomQuote()" >
-    <div class="quote-container">
+<div class="wrapper">
+    <!--<img src="images/bgMountains.jpg" class="img-responsive" id="bg-image">-->
+        <div class="main-content">
         
-        <h1 id="quote">Here is a quote</h1>
+        <div class="container" id="twitter-wrapper">
+            <a href="https://twitter.com/share" 
+           id="twitter-button"
+           class="twitter-share-button"
+           data-text="Check out Anna's random quote generator!" 
+           data-url="https://annagalante.github.io/Random-Quote/" 
+           data-via="Anna_Bandit" 
+           data-hashtags="FCC" 
+           data-related="anna_bandit,freeCodeCamp" 
+           data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="quote-container">
         
-        <h3 id="author">Jon Snow</h3>
+            <h1 id="quote">Here is a quote</h1>
         
-        <a class="btn btn-outline-primary" 
+            <h3 id="author">Jon Snow</h3>
+        
+            <a class="btn btn-outline-primary" 
            href="#" 
            role="button" 
            id="getQuote" 
-           
            onclick="randomQuote()">
             New Quote</a>
-        
-        <!-- <a class="btn btn-outline-primary" role="button" id="tweetQuote" onclick="" href="https://twitter.com/intent/tweet?text=">Tweet</a> -->
-        
-        <a class="btn btn-outline-primary" 
-           href="https://twitter.com/intent/tweet?text=Lorem%20Ipsum"
-           role="button" 
-           id="tweetQuote" 
-           onclick="" 
-           data-hashtags="example,demo"
-           data-via="Anna_Bandit">
-            Tweet
-        </a>
-    </div> 
-    
-    
+
+        </div>
+    </div>
+    <div id="footer">
+        <p class="footer-text">Design & Development: Annastasia Galante <br />
+            CSS Framework: Boostrap<br />
+            Icon Library: Font Awesome<br />
+            Image Credit: Mike Dennler</p>
+    </div>
+</div>
     
 <!-- Bootstrap core JavaScript ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -55,19 +64,15 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	
 </body>
-<footer class="footer navbar-fixed-bottom">
+    <!--
+<footer class="footer navbar-bottom">
     <div class="container">
-        <p>Lorem ipsum</p>
-        <dl class="row">
-            <dt class="col-sm-3"> Developed and Designed by</dt>
-            <dd class="col-sm-9"> Annastasia Galante</dd>
-    
-            <dt class="col-sm-3"> CSS Framework</dt>
-            <dd class="col-sm-9"> Bootstrap</dd>
-            
-            <dt class="col-sm-3"> Icon Library</dt>
-            <dd class="col-sm-9"> Font Awesome</dd>
-        </dl>
+        <p class="footer-text">Design & Development: Annastasia Galante <br />
+            CSS Framework: Boostrap<br />
+            Icon Library: Font Awesome<br />
+            Image Credit: Mike Dennler</p>
+        
     </div>
 </footer>
+-->
 </html>
