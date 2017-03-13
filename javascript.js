@@ -13,7 +13,7 @@ function randomQuote() {
         {quote: "Supreme executive power should be derived by a mandate from the masses not from some farcical aquatic ceremony!", author: "Monty Python and The Holy Grail"},
         {quote: "Nerf this!", author: "D.Va"},
         {quote: "Heroes Never Die!", author: "Mercy"},
-        {quote: "Many that live deserve death. And some die that deserve life. Can you give it to them? Then be not too eager to deal out death in the name of justice, fearing for your own safety. Even the wise cannot see all ends.", author: "Gandalf"},
+        {quote: "Many that live deserve death. And some die that deserve life. Can you give it to them?", author: "Gandalf"},
         {quote: "Pride is not the opposite of shame, but its source. True humility is the only antidote for shame.", author: "Iroh"},
         {quote: "Tempest Keep was merely a setback!", author: "Kael'thas Sunstrider"},
         {quote: "If I had asked people what they wanted, they would have said faster horses.", author: "Henry Ford"}
