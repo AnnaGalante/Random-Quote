@@ -17,6 +17,7 @@ function randomQuote() {
         {quote: "Pride is not the opposite of shame, but its source. True humility is the only antidote for shame.", author: "Iroh"},
         {quote: "Tempest Keep was merely a setback!", author: "Kael'thas Sunstrider"},
         {quote: "If I had asked people what they wanted, they would have said faster horses.", author: "Henry Ford"}
+        {quote: "I watched the storm, so beautiful yet terrific", author:"Mary Shelley"}
     ];
     
     //--- this portion Generates the random values ---//
@@ -31,8 +32,8 @@ function randomQuote() {
     document.getElementById("author").textContent = sameAuthor;
     
     //--- Uses same generated quote for twitter --//
-    
-    var twitterLink = "https://twitter.com/intent/tweet?text=" + sameQuote; // still fussing with this // 
+    document.getElementById("twitter-button").
+    var twitterLink = "https://twitter.com/intent/tweet?text=" + sameQuote;
     
 }
 

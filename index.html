@@ -8,8 +8,8 @@
 	<title>Random Quotes</title>
     <!-- getting bootstrap -->
     <link rel="stylesheet" href = "bootstrap-4.0.0-alpha.5-dist/css/bootstrap.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Open+Sans" rel="stylesheet">
     <!-- my style sheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- my javascript -->
@@ -17,8 +17,6 @@
 </head>
 <body id="bootstrap-overrides" onload="randomQuote()" >
 <div class="bg-img bg-box">
-    <!--<img src="images/bgMountains.jpg" class="img-responsive" id="bg-image">-->
-
         <div class="main-content2">
         
         <div class="container" id="twitter-wrapper">
@@ -33,10 +31,8 @@
            data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="quote-container">
-        
-            <h1 id="quote">Here is a quote</h1>
-        
-            <h3 id="author">Jon Snow</h3>
+            <h1 id="quote"></h1>
+            <h3 id="author"></h3>
         
             <a class="btn btn-outline-primary" 
            href="#" 
@@ -56,7 +52,6 @@
     <div id="footer">
         <p class="footer-text">Design & Development: Annastasia Galante <br />
             CSS Framework: Boostrap<br />
-            Icon Library: Font Awesome<br />
             Image Credit: Mike Dennler</p>
     </div><!--/footer-->
     </div><!--/flex-parent -->
