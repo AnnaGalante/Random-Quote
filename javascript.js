@@ -1,5 +1,5 @@
 function randomQuote() {
-    //--- this portion stores the quotes ---//
+    //--- Quotes ---//
     var quoteArray = [
         {quote: "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.", author: "Patrick Rothfuss"},
         {quote: "There’s no freedom quite like the freedom of being constantly underestimated. ", author: "Scott Lynch"},
@@ -16,26 +16,25 @@ function randomQuote() {
         {quote: "Many that live deserve death. And some die that deserve life. Can you give it to them?", author: "Gandalf"},
         {quote: "Pride is not the opposite of shame, but its source. True humility is the only antidote for shame.", author: "Iroh"},
         {quote: "Tempest Keep was merely a setback!", author: "Kael'thas Sunstrider"},
-        {quote: "If I had asked people what they wanted, they would have said faster horses.", author: "Henry Ford"}
-        {quote: "I watched the storm, so beautiful yet terrific", author:"Mary Shelley"}
+        {quote: "If I had asked people what they wanted, they would have said faster horses.", author: "Henry Ford"},
     ];
     
-    //--- this portion Generates the random values ---//
-    var randomNumber=Math.floor(Math.random() * quoteArray.length); //generatesrandom number
+    //---Generates the random values ---//
+    var randomNumber = Math.floor(Math.random() * quoteArray.length); //generatesrandom number
     
-    var sameQuote=quoteArray[randomNumber].quote; 
+    var sameQuote = quoteArray[randomNumber].quote;    
+    var sameAuthor = quoteArray[randomNumber].author;
     
-    var sameAuthor=quoteArray[randomNumber].author;
-    
-    //--- this portion pops the quote into the HTML ---//
-    document.getElementById("quote").textContent = sameQuote; 
+    //--- Popping the quote into the HTML ---//
+    document.getElementById("quote").textContent = sameQuote;
     document.getElementById("author").textContent = sameAuthor;
     
     //--- Uses same generated quote for twitter --//
-    document.getElementById("twitter-button").
-    var twitterLink = "https://twitter.com/intent/tweet?text=" + sameQuote;
+    document.getElementById("twitter-button")[0].setAttribute("data-text", sameQuote);  //--Why doesnt this work? --//
     
 }
+
+
 
 
 

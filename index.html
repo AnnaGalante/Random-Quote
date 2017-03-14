@@ -13,7 +13,7 @@
     <!-- my style sheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- my javascript -->
-    <script src="javascript.js" language="javascript" type="text/javascript"></script>
+    <script type="text/javascript" src="javascript.js"></script>
 </head>
 <body id="bootstrap-overrides" onload="randomQuote()" >
 <div class="bg-img bg-box">
@@ -28,11 +28,13 @@
            data-via="Anna_Bandit" 
            data-hashtags="FCC" 
            data-related="anna_bandit,freeCodeCamp" 
-           data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+           data-show-count="false"
+            >Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="quote-container">
-            <h1 id="quote"></h1>
-            <h3 id="author"></h3>
+            <h1 id="quote"> </h1>
+        
+            <h3 id="author"> </h3>
         
             <a class="btn btn-outline-primary" 
            href="#" 
@@ -41,7 +43,7 @@
            onclick="randomQuote()">
             New Quote</a>
 
-        </div>
+        </div><!--/quote-container -->
     </div><!--/main-content -->
 </div>
 <!-- End Main content 
@@ -67,15 +69,4 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	
 </body>
-    <!--
-<footer class="footer navbar-bottom">
-    <div class="container">
-        <p class="footer-text">Design & Development: Annastasia Galante <br />
-            CSS Framework: Boostrap<br />
-            Icon Library: Font Awesome<br />
-            Image Credit: Mike Dennler</p>
-        
-    </div>
-</footer>
--->
 </html>
