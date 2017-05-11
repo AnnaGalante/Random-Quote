@@ -21,7 +21,6 @@ function randomQuote() {
     
     //---Generates the random values ---//
     var randomNumber = Math.floor(Math.random() * quoteArray.length); //generatesrandom number
-    
     var sameQuote = quoteArray[randomNumber].quote;    
     var sameAuthor = quoteArray[randomNumber].author;
     
@@ -29,21 +28,20 @@ function randomQuote() {
     document.getElementById("quote").textContent = sameQuote;
     document.getElementById("author").textContent = sameAuthor;
     
-    //--- Uses same generated quote for twitter --//
-    function twitterUpdate(){
-    document.getElementById("twitter-button")[0].setAttribute("data-text", sameQuote);  //--Why doesnt this work? --//
-    }
-
-    //--- Uses same generated quote for twitter --//
-    //function tweetQuote() {
-    //$("#tweet-quote").on("click", function() {
-    //openURL("https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + encodeURIComponent('"' + sameQuote + '" ' + sameAuthor));
-  })
 };
-   
-    
-}
 
+//-- Generates tweet URL --//
+   
+//function tweetQuote(){
+ //var tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.getElementById("quote").textContent) + " -" + encodeURIComponent(document.getElementById("author").textContent) + "?via=Anna_Bandit?hashtags=FCC";
+ //document.getElementById("twitter-button").setAttribute("href", tweetURL);
+//};
+
+function tweetQuoteButton(){
+    var test = "loremipsum"
+    var tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.getElementById("quote").textContent) + " -" + encodeURIComponent(document.getElementById("author").textContent);
+ document.getElementById("tweetButton").setAttribute("data-text", test);
+};
 
 
 

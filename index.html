@@ -18,22 +18,18 @@
 <body id="bootstrap-overrides" onload="randomQuote()" >
 <div class="bg-img bg-box">
         <div class="main-content2">
-        
-        <div class="container" id="twitter-wrapper">
             
-            <a class="btn" id="tweet-quote" target="_blank" title="Tweet this quote" onclick="tweetQuote()">
-            Tweet</a>
-            <!-- <a href="https://twitter.com/share" 
-           id="twitter-button"
-           class="twitter-share-button"
-           data-text="Check out Anna's random quote generator!" 
-           data-url="https://annagalante.github.io/Random-Quote/" 
-           data-via="Anna_Bandit" 
-           data-hashtags="FCC" 
-           data-related="anna_bandit,freeCodeCamp" 
-           data-show-count="false"
-           onclick="twitterUpdate()"
-            >Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+        <div class="container" id="twitter-wrapper">
+            <a class="twitter-share-button"
+               id="tweetButton"
+               href="https://twitter.com/share"
+               data-size = "small"
+               data-hashtags="fcc"
+               data-via="Anna_Bandit"
+               data-text=""
+               data-url="https://annagalante.github.io/Random-Quote/"
+               onclick="tweetQuoteButton()">
+                Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="quote-container">
             <h1 id="quote"> </h1>
@@ -56,12 +52,29 @@
     <div class="flex-parent-push">
     <div class="flex-parent">
     <div id="footer">
-        <p class="footer-text">Design & Development: Annastasia Galante <br />
+        <p class="footer-text">Design and Development: Annastasia Galante <br />
             CSS Framework: Boostrap<br />
             Image Credit: Mike Dennler</p>
     </div><!--/footer-->
     </div><!--/flex-parent -->
     </div><!--/flex-parent-push -->
+<!-- Twitter Functionality -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>    
     
 <!-- Bootstrap core JavaScript ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
