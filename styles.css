@@ -40,6 +40,10 @@ body{
     text-align: right;
     padding: 5px; 
 }
+
+.link{
+    color: #097AA3;
+}
 /* Headers ******/
 
 h1 {
