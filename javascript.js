@@ -16,7 +16,7 @@ function randomQuote() {
         {quote: "Many that live deserve death. And some die that deserve life. Can you give it to them?", author: "Gandalf"},
         {quote: "Pride is not the opposite of shame, but its source. True humility is the only antidote for shame.", author: "Iroh"},
         {quote: "Tempest Keep was merely a setback!", author: "Kael'thas Sunstrider"},
-        {quote: "If I had asked people what they wanted, they would have said faster horses.", author: "Henry Ford"},
+        {quote: "If I had asked people what they wanted they would have said faster horses.", author: "Henry Ford"},
     ];
     
     //---Generates the random values ---//
@@ -30,9 +30,21 @@ function randomQuote() {
     document.getElementById("author").textContent = sameAuthor;
     
     //--- Uses same generated quote for twitter --//
+    function twitterUpdate(){
     document.getElementById("twitter-button")[0].setAttribute("data-text", sameQuote);  //--Why doesnt this work? --//
+    }
+
+    //--- Uses same generated quote for twitter --//
+    //function tweetQuote() {
+    //$("#tweet-quote").on("click", function() {
+    //openURL("https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + encodeURIComponent('"' + sameQuote + '" ' + sameAuthor));
+  })
+};
+   
     
 }
+
+
 
 
 
