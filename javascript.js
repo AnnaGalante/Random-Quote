@@ -32,16 +32,13 @@ function randomQuote() {
 
 //-- Generates tweet URL --//
    
-//function tweetQuote(){
- //var tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.getElementById("quote").textContent) + " -" + encodeURIComponent(document.getElementById("author").textContent) + "?via=Anna_Bandit?hashtags=FCC";
- //document.getElementById("twitter-button").setAttribute("href", tweetURL);
-//};
-
-function tweetQuoteButton(){
-    var test = "loremipsum"
-    var tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.getElementById("quote").textContent) + " -" + encodeURIComponent(document.getElementById("author").textContent);
- document.getElementById("tweetButton").setAttribute("data-text", test);
+function tweetQuote(){
+ var urlOfPage = "https://annagalante.github.io/Random-Quote/";
+ var tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.getElementById("quote").textContent) + " -" + encodeURIComponent(document.getElementById("author").textContent) + "&url=" + encodeURIComponent(urlOfPage) + "&via=Anna_Bandit&hashtags=FCC";
+ document.getElementById("customTweetBtn").setAttribute("href", tweetURL);
 };
+
+
 
 
 

@@ -8,8 +8,9 @@
 	<title>Random Quotes</title>
     <!-- getting bootstrap -->
     <link rel="stylesheet" href = "bootstrap-4.0.0-alpha.5-dist/css/bootstrap.css">
-    <!-- google fonts -->
+    <!-- google fonts & fontawesome -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Open+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/98cb644a88.js"></script>
     <!-- my style sheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- my javascript -->
@@ -20,16 +21,15 @@
         <div class="main-content2">
             
         <div class="container" id="twitter-wrapper">
-            <a class="twitter-share-button"
-               id="tweetButton"
-               href="https://twitter.com/share"
-               data-size = "small"
-               data-hashtags="fcc"
-               data-via="Anna_Bandit"
-               data-text=""
-               data-url="https://annagalante.github.io/Random-Quote/"
-               onclick="tweetQuoteButton()">
-                Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="btn"
+              id="customTweetBtn"
+              target="_blank" 
+              href="" 
+              onclick="tweetQuote()">
+            <i class="fa fa-twitter" aria-hidden="true"></i> 
+            Tweet
+            </a>
+            
         </div>
         <div class="quote-container">
             <h1 id="quote"> </h1>
