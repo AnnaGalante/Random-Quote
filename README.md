@@ -3,7 +3,8 @@ Random Quote Machine for FCC
 https://annagalante.github.io/Random-Quote/
 
 Start Date = 12/29/2016
-Finish Date = n/a
+Finish Date = 05/11/2017
+
 
 Developed by Annastasia Galante
 CSS Framework - Boostrap
